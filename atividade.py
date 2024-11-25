@@ -1,5 +1,6 @@
-texto = str(input('Insira o texto a ser exibido: '))
-texto2 = str(input('Insira outro texto a ser exibido: '))
+numero1 = int(input("Digite um numero: "))
+numero2 = int(input("Digite outro numero: "))
 
-print(texto)
-print(texto2)
+soma = numero1 + numero2
+
+print(f"A soma entre {numero1} e {numero2} é {soma}")
